@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ppla-questions-app
+  cache:
+    caffeine:
+      spec: expireAfterWrite=30m
