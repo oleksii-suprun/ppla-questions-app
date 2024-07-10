@@ -383,7 +383,7 @@
     "question": "CTR is:",
     "options": [
       "Controlled zone of the airport.",
-      "j Air defense identification zone.",
+      "Air defense identification zone.",
       "Military aerodrome traffic zone.",
       "Controlled area of the airport."
     ],
@@ -704,7 +704,7 @@
     "qid": "PL010-0049",
     "question": "What is a member of a flight crew, aware of having lost physical or mental fitness required to perform his functions, obliged to?",
     "options": [
-      "To immediately undergo an aero-medical examination.",
+      "To immediately undergo an aero-medical examinaton.",
       "To inform the CAO President about it.",
       "To inform the Minister of Transport about it.",
       "All the answers are correct."
@@ -831,7 +831,7 @@
     "question": "Airport elevation is:",
     "options": [
       "Elevation above average sea level of the highest point on the maneuvering area.",
-      "p.m. Average elevation of the airport above sea level.",
+      "Average elevation of the airport above sea level.",
       "Elevation of the highest point at the airport.",
       "Elevation of the lowest runway threshold."
     ],
@@ -902,7 +902,7 @@
     "options": [
       "The status of a specialized agency of the United Nations.",
       "The status of a government agency of the United States of America.",
-      "The status of a budgetary unit of the NATO.",
+      "The status of a budgetaryunit of the NATO.",
       "None of the answers is correct."
     ],
     "answers": [
@@ -1197,7 +1197,7 @@
       "When the conditions for restoration of a license, as defined in the decision concerning its suspending have been fulfilled.",
       "Upon the consent of the CAO President.",
       "Upon the consent of a Minister in charge of transport.",
-      "When the validity of the license phases."
+      "When the validity of the license pases."
     ],
     "answers": [
       0
@@ -2946,7 +2946,7 @@
     "options": [
       "500 m.",
       "600 m.",
-      "1000m.",
+      ";1000m.",
       "2000 m."
     ],
     "answers": [
@@ -3418,7 +3418,7 @@
   {
     "id": 245,
     "qid": "PL010-0320",
-    "question": "A person who was a witness forced landing of an aircraft is required to immediately notify:",
+    "question": "A person who wis a witness forced landing of an aircraft is required to immediately notify:",
     "options": [
       "The security services and public order, which may assist.",
       "CAO President.",
@@ -4666,7 +4666,7 @@
     "qid": "PL010-0429",
     "question": "If a VFR flight is to be conducted in the controlled airspace, flight plan must be submitted no later unlock before the scheduled time, than:",
     "options": [
-      "60 min. 60 min..",
+      "60 min..",
       "30 min.",
       "10 min.",
       "3 hours."
@@ -5646,7 +5646,7 @@
     "qid": "PL010-0514",
     "question": "VFR Flight - spec day on aircraft other than a helicopter can be made if the flight visibility is not less than:",
     "options": [
-      "1.5 km.",
+      "1,5 km.",
       "2 km.",
       "3 km.",
       "5 km."
@@ -6599,7 +6599,7 @@
     "question": "Air defense identification zone (ADIZ) is an airspace, which extends along the state border into the country to the distance of:",
     "options": [
       "15 km.",
-      "2.5 km.",
+      "2,5 km.",
       "10 km.",
       "6 km."
     ],
@@ -7412,7 +7412,7 @@
     "options": [
       "From the engine through the gearbox.",
       "Directly from the engine.",
-      "y From the engine through the reducer.",
+      "From the engine through the reducer.",
       "From the electric motors."
     ],
     "answers": [
@@ -7604,7 +7604,7 @@
   {
     "id": 544,
     "qid": "PL020-0044",
-    "question": "structures:",
+    "question": "Czy kompozyty np. z włókien węglowych, grafitowych, szklanych itp. – stosowane są w konstrukcjach lotniczych: Are composites such as carbon fiber, graphite, glass, etc. -used in aircraft :structures:",
     "options": [
       "Yes- as part of the cover and the reinforcement of the airframe and engine design.",
       "No.",
@@ -8012,10 +8012,10 @@
     "qid": "PL020-0076",
     "question": "How many colors the aircrafts navigation lights has:",
     "options": [
-      "3. 3.",
-      "2. 2.",
-      "4. 4.",
-      "1. 1."
+      "3.",
+      "2.",
+      "4.",
+      "1."
     ],
     "answers": [
       0
@@ -8040,10 +8040,10 @@
     "qid": "PL020-0078",
     "question": "How many freedom degrees has the artificial horizon:",
     "options": [
-      "3. 3.",
-      "2. 2.",
-      "4. 4.",
-      "1. 1."
+      "3.",
+      "2.",
+      "4.",
+      "1."
     ],
     "answers": [
       0
@@ -8054,10 +8054,10 @@
     "qid": "PL020-0079",
     "question": "How many freedom degrees has a turn indicator:",
     "options": [
-      "2. 2.",
-      "3. 3.",
-      "4. 4.",
-      "1. 1."
+      "2.",
+      "3.",
+      "4.",
+      "1."
     ],
     "answers": [
       0
@@ -9202,7 +9202,7 @@
     "qid": "PL020-0170",
     "question": "When a generator or alternator fails, how much battery-life remains for a safe landing:",
     "options": [
-      "0.5 h - 1 h.",
+      "0,5 h - 1 h.",
       "3 h - 4 h.",
       "5 h - 6 h.",
       "7 h - 8 h."
@@ -9634,7 +9634,7 @@
   {
     "id": 689,
     "qid": "PL020-0204",
-    "question": "Śmigło w którym kąt nastawienia łopat jest regulowany przez pilota zwany jest śmigłem The propeller in which the propeller blade angle is adjusted by the pilot is called the .... propeller:",
+    "question": "The propeller in which the propeller blade angle is adjusted by the pilot is called the .... propeller:",
     "options": [
       "Controllable pitch propeller.",
       "Self change.",
@@ -10406,8 +10406,8 @@
     "qid": "PL030-0007",
     "question": "The international standard atmosphere (International Standard Atmosphere) defines the following conditions at the sea level: temperature / pressure / density / temperature gradient:",
     "options": [
-      "15°C / 1013.25 hPa / 1.225 kg/m3 / -6.5°C per 1000 m.",
-      "15°C / 1013.25 mb / 1.225 kg/m3 / 1.98°C per 1000 m.",
+      "15°C / 1013,25 hPa / 1.225 kg/m3 / -6.5°C per 1000 m.",
+      "15°C / 1013,25 mb / 1.225 kg/m3 / 1.98°C per 1000 m.",
       "0°C / 1.013 Bar / 1225 g/m3 / 1.98°C per 1000 ft.",
       "15°C / 29.92 in.Hg / 1013 kg/m3 / 1.98°C per 1000 ft."
     ],
@@ -10420,7 +10420,7 @@
     "qid": "PL030-0008",
     "question": "The center of gravity can be defined as:",
     "options": [
-      "C. względem punktu pomiarowego \"DATUM\". The percent mean aerodynamic chord (% MAC) or distance (mm, cm, inch) CG the measuring point \"DATUM\".",
+      "The percent mean aerodynamic chord (% MAC) or distance (mm, cm, inch) CG the measuring point \"DATUM\".",
       "Percentage of dynamic chord severity (% MAC).",
       "As a percentage of the fuselage aerodynamic chord (% MAC).",
       "Percentage of dynamic chord counted in the average range (% MAC)."
@@ -10546,7 +10546,7 @@
     "qid": "PL030-0034",
     "question": "What is VX?",
     "options": [
-      "This is the speed at which the best climb gradient is achieved. Best Angle of Climb.",
+      "Best Angle of Climb. This is the speed at which the best climb gradient is achieved.",
       "This is the speed at which achieves the best rate of climb Rate of Climb Best.",
       "To speed the decision at which the conditions are safe and continue to break off.",
       "Is the speed at which the best value is achieved for the lift force."
@@ -11065,7 +11065,7 @@
     "question": "In a given aircraft we have two possible landing flaps positions: 0 and 10. In order to obtain a shorter ground roll the following should be used:",
     "options": [
       "10.",
-      "0. 0.",
+      "0.",
       "The position of the flaps has no influence on the lengh of the ground roll.",
       "All the answers given are false."
     ],
@@ -11806,7 +11806,7 @@
     "qid": "PL040-0062",
     "question": "Ebulisation means:",
     "options": [
-      "Boiling of body fluids at a height of 19.200m without access pilot in altitude compensation costume.",
+      "Boiling of body fluids at a height of 19,200m without access pilot in altitude compensation costume.",
       "Breathing pure oxygen before the flight altitude.",
       "Pilot's dehydration before the flight.",
       "Increase in pulmonary artery pressure."
@@ -11851,7 +11851,7 @@
       "55-75 skurczów/min. 90-110 beats/ min",
       "90-110 skurczów/min. above 120 beats/ min",
       "Powyżej 120 skurczów/min.",
-      "Above 120 beats/ min."
+      "40-50 skurczów/min. Above 120 beats/ min."
     ],
     "answers": [
       0
@@ -13092,12 +13092,12 @@
   {
     "id": 936,
     "qid": "PL040-0163",
-    "question": "Podaj prawidłową kolejność czynności na miejscu wypadku:1) kontrola tętna 2)kontrola oddechu 3)ocena bezpieczeństwa miejsca wypadku 4)unieruchamianie złamań 5)resuscytacja/sztuczny oddech 6)pośredni masaż serca/tamowanie krwawienia; Please enter a valid order of operations at the accident scene: 1) control pulse 2) breath control 3) assess the safety of an accident 4) immobilization of fractures 5) CPR / rescue breath 6) chest compressions / stop bleeding;",
+    "question": "Please enter a valid order of operations at the accident scene: 1) control pulse 2) breath control 3) assess the safety of an accident 4) immobilization of fractures 5) CPR / rescue breath 6) chest compressions / stop bleeding;",
     "options": [
-      "3,2,1,6,5,4; 3,2,1,6,5,4;",
-      "2,3,4,5,6,1; 2,3,4,5,6,1;",
-      "6,1,2,3,4,5; 6,1,2,3,4,5;",
-      "4,1,2,5,3,6; 4,1,2,5,3,6; ,"
+      "3,2,1,6,5,4;",
+      "2,3,4,5,6,1;",
+      "6,1,2,3,4,5;",
+      "4,1,2,5,3,6;"
     ],
     "answers": [
       0
@@ -13162,7 +13162,7 @@
   {
     "id": 941,
     "qid": "PL040-0168",
-    "question": "Podczas wdechu i wydechu ciśnienie powietrza pęcherzykowatego jest sumą ciśnień parcjalnych wielu gazów takich jak : tlen, dwutlenek węgla i azot. Które z praw gazowych w sposób najlepszy opisuje to zjawisko : During inhalation and exhalation the alveolar pressure is the sum of partial pressures of many gases such as oxygen, carbon dioxide and nitrogen. What is the best way to describe this law?",
+    "question": "During inhalation and exhalation the alveolar pressure is the sum of partial pressures of many gases such as oxygen, carbon dioxide and nitrogen. What is the best way to describe this law?",
     "options": [
       "Dalton's Law.",
       "Henry's Law.",
@@ -13906,9 +13906,9 @@
     "qid": "PL040-0225",
     "question": "Critical zone is the height:",
     "options": [
-      "000 – 8.000 mnpm. From 6,000 - 8,000 m above sea level.",
-      "000 – 4.000 mnpm. From 2,000 - 4,000 m above sea level.",
-      "000 – 6.000 mnpm. 4,000 - 6,000 m above sea level.",
+      "From 6,000 - 8,000 m above sea level.",
+      "From 2,000 - 4,000 m above sea level.",
+      "4,000 - 6,000 m above sea level.",
       "Above 8,000 m above sea level."
     ],
     "answers": [
@@ -15416,7 +15416,7 @@
   {
     "id": 1102,
     "qid": "PL050-0003",
-    "question": ".... fronts.",
+    "question": "Thunderstorms occur mostly on ...... fronts.",
     "options": [
       "Cold.",
       "Cold occlusion.",
@@ -17353,7 +17353,7 @@
       "2 500 ft",
       "25000 ft",
       "2 400 ft",
-      "232.3 ft. 232.3 ft"
+      "232.3 ft"
     ],
     "answers": [
       0
@@ -17516,7 +17516,7 @@
   {
     "id": 1252,
     "qid": "PL060-0013",
-    "question": "How long in centimeters on a map scaled 1: 500.000 is a section equal to 105 km on the ground:",
+    "question": "How long in centimeters on a map scaled 1: 500,000 is a section equal to 105 km on the ground:",
     "options": [
       "21 cm.",
       "42 cm;",
@@ -18020,7 +18020,7 @@
   {
     "id": 1288,
     "qid": "PL060-0058",
-    "question": "On the aeronautical chart scaled 1: 1.000.000 a 20 cm section corresponds to the actual ground distance of:",
+    "question": "On the aeronautical chart scaled 1: 1,000,000 a 20 cm section corresponds to the actual ground distance of:",
     "options": [
       "200 km",
       "50 km",
@@ -18034,7 +18034,7 @@
   {
     "id": 1289,
     "qid": "PL060-0059",
-    "question": "On the aeronautical chart scaled 1: 200.000 a 20 cm section corresponds to the actual ground distance of:",
+    "question": "On the aeronautical chart scaled 1: 200,000 a 20 cm section corresponds to the actual ground distance of:",
     "options": [
       "40 km",
       "20 km",
@@ -18048,7 +18048,7 @@
   {
     "id": 1290,
     "qid": "PL060-0060",
-    "question": "On the aeronautical chart scaled 1: 500.000 a 20 cm section corresponds to the actual ground distance of:",
+    "question": "On the aeronautical chart scaled 1: 500,000 a 20 cm section corresponds to the actual ground distance of:",
     "options": [
       "100 km",
       "50 km",
@@ -18062,7 +18062,7 @@
   {
     "id": 1291,
     "qid": "PL060-0061",
-    "question": "On the aeronautical chart scaled 1: 500.000 the distance between points is 27 cm. What is the actual distance between those points?",
+    "question": "On the aeronautical chart scaled 1: 500,000 the distance between points is 27 cm. What is the actual distance between those points?",
     "options": [
       "73 NM",
       "54 NM",
@@ -18720,7 +18720,7 @@
   {
     "id": 1338,
     "qid": "PL060-0122",
-    "question": "How many centimeters on the map scaled 1: 10.000 has a section corresponding to a distance of 2 km of the area:",
+    "question": "How many centimeters on the map scaled 1: 10,000 has a section corresponding to a distance of 2 km of the area:",
     "options": [
       "20 cm",
       "40 cm",
@@ -18930,7 +18930,7 @@
   {
     "id": 1353,
     "qid": "PL060-0151",
-    "question": "On the aeronautical chart scaled 1: 10.000 2 cm section corresponds to the actual ground distance of:",
+    "question": "On the aeronautical chart scaled 1: 10,000 2 cm section corresponds to the actual ground distance of:",
     "options": [
       "200 m",
       "50 m",
@@ -18944,7 +18944,7 @@
   {
     "id": 1354,
     "qid": "PL060-0152",
-    "question": "On the aeronautical chart scaled 1: 500.000 a 10.8 cm section was covered within a 20 minute flight. The ground speed of the flight was:",
+    "question": "On the aeronautical chart scaled 1: 500,000 a 10.8 cm section was covered within a 20 minute flight. The ground speed of the flight was:",
     "options": [
       "162 km/h",
       "200 MPH",
@@ -18958,7 +18958,7 @@
   {
     "id": 1355,
     "qid": "PL060-0153",
-    "question": "On the map scaled 1: 10.000 a 20 cm section corresponds to the actual ground distance of:",
+    "question": "On the map scaled 1: 10,000 a 20 cm section corresponds to the actual ground distance of:",
     "options": [
       "2 km",
       "5 km",
@@ -19114,7 +19114,7 @@
     "qid": "PL060-0168",
     "question": "DME distance readout in the aircraft at FL120 flying vertically above the VOR/DME (MSL) station will be:",
     "options": [
-      "2 NM.",
+      "Approx. 2 NM.",
       "Not more than 1 NM.",
       "Depends on the type of transmitter DME, but never more than 1.2 NM.",
       "0 NM (+-0.1 NM)."
@@ -19280,7 +19280,7 @@
   {
     "id": 1378,
     "qid": "PL060-0193",
-    "question": "120°45’ 23°15’ położony jest w ćwiartce: The point with the following coordinates: 120° 45'W, 23° 15'N is located in the quarter:",
+    "question": "The point with the following coordinates: 120° 45'W, 23° 15'N is located in the quarter:",
     "options": [
       "NW",
       "NE",
@@ -19436,9 +19436,9 @@
     "qid": "PL060-0207",
     "question": "VDF direction finders operate on frequencies:",
     "options": [
-      "130 MHz and 122.7 MHz.",
-      "975 MHz.",
-      "From 88 MHz to 108 MHz.",
+      "130 MHz i 122.7 MHz",
+      "From 108 MHz to 136.975 MHz.",
+      "From 88 MHz to 108 MHz",
       "Above 140 MHz."
     ],
     "answers": [
@@ -19537,7 +19537,7 @@
       "Runway visual range - the visibility on the runway.",
       "Radar vectors Requested - please radar vectoring.",
       "Runway visibility report - a report runway visibility.",
-      ".. - nowe zezwolenie na przelot inną trasą. Recleared via route ... - a new permit to fly a different route."
+      "Recleared via route ... - a new permit to fly a different route."
     ],
     "answers": [
       0
@@ -21286,7 +21286,7 @@
     "options": [
       "The highest theoretical altitude that the aircraft is able to climb.",
       "An altitude calculated in the design project of an aircraft.",
-      "The altitude at which the aircraft still maintains the climbing ability of 0.5m/s.",
+      "The altitude at which the aircraft still maintains the climbing ability of 0,5m/s.",
       "The altitude of the atmospere surrounding the Earth."
     ],
     "answers": [
@@ -21453,9 +21453,9 @@
     "question": "Is there any connection between air static pressure (p), the absolute temperature (T) and density (rho)?",
     "options": [
       "Yes, expressed as the Universal Gas Law p=rho*g*R*T [Pa], where g is the gravity constant g = 9.81 m/s2 and gas constant R = 29.2746 m/K.",
-      "Yes, expressed in Mallets Law p=R*g*rho*dT [Pa], where g is the gravity constant g = 9.81 m/s2 and air gas constant R = 29.2746 m/K.",
-      "Zależność ma postać krakowiana f [A, g, p, rho, T]. Yes, expressed as a Crakow's form f [A, g, p, rho, T]",
-      "Nie ma takiego związku. There is no connection"
+      "Yes, expressed in Mallets Law p=R*g*rho*dT [Pa], where g is the gravity constant g = 9.81 m/s2 and air gas constant R = 29.2746",
+      "Yes, expressed as a Crakow's form f [A, g, p, rho, T]",
+      "There is no connection"
     ],
     "answers": [
       0
@@ -22757,7 +22757,7 @@
       "0 m.",
       "100m.",
       "100m.",
-      "17.5 m."
+      "17,5 m."
     ],
     "answers": [
       0
@@ -22796,7 +22796,7 @@
     "qid": "PL080-0139",
     "question": "Air flow around the wing is deflected towards:",
     "options": [
-      "Deflected towards the wing root on the upper surface - Deflected towards the wing tip on the lower surface. E1633+SUM(SUM(D494:D1632))",
+      "Deflected towards the wing root on the upper surface - Deflected towards the wing tip on the lower surface.",
       "Deflected towards the wing root on the lower surface - deflected towards the wing tip on the upper surface.",
       "Deflected towards the wing root on the lower and upper surface.",
       "Deflected towards the wing tip on the lower and upper surface."
@@ -24437,7 +24437,7 @@
       "profiling geometric chord in subsequent sections do not lie in one line",
       "skrzydła wygięte są w dół podczas postoju szybowca na ziemi the wings are bent down when parked glider on the ground",
       "skrzydła wygięte są w górę podczas lotu wings are bent upwards in the flight",
-      "na końcówkach skrzydeł stosuje się profile, na których oderwanie strug dla &alpha;kryt jest mniej intensywne on the wingtip sections profile are applied where the plane separation is less intense"
+      "kryt jest mniej intensywne on the wingtip sections profile are applied where the plane separation is less intense"
     ],
     "answers": [
       0
@@ -24488,7 +24488,7 @@
   {
     "id": 1750,
     "qid": "PL080-0283",
-    "question": "Co to za zasada?: „W tunelu, przez który przepływa powietrze, suma ciśnienia statycznego i dynamicznego jest stała w każdym punkcie tego przepływu” What kind of rule is? \"In the tunnel by which an air flows, the sum of static and dynamic pressure is constant at every point of the movement\"",
+    "question": "What kind of rule is? \"In the tunnel by which an air flows, the sum of static and dynamic pressure is constant at every point of the movement\"",
     "options": [
       "prawo Bernouli’ego the Bernouli right B",
       "zasada ciągłości ruchu the principle of movement continuity",
@@ -24726,7 +24726,7 @@
   {
     "id": 1767,
     "qid": "PL080-0377",
-    "question": "Co to za zasada?:„W tunelu przez który przepływa powietrze iloczyn pola przekroju i prędkości powietrza jest stały S*v=const What is that rule? \"In the tunnel through which air flows and cross-product of the air velocity is constant S * v = const",
+    "question": "What is that rule? \"In the tunnel through which air flows and cross-product of the air velocity is constant S * v = const",
     "options": [
       "The Equation of Continuity.",
       "Bernouli principle.",
@@ -24740,7 +24740,7 @@
   {
     "id": 1768,
     "qid": "PL080-0378",
-    "question": "Co to za zasada?:„W tunelu, przez który przepływa powietrze, suma ciśnienia statycznego i dynamicznego jest stała w każdym punkcie tego przepływu” What kind is that rule? In the tunnel by which air flows, the product of static and dynamic pressure is constant in each point of airflow.",
+    "question": "What kind is that rule? In the tunnel by which air flows, the product of static and dynamic pressure is constant in each point of airflow.",
     "options": [
       "The Bernoulli's principle.",
       "The Equation of contuity principle.",
@@ -26577,7 +26577,7 @@
     "question": "Auxiliary frequency for 121.5 MHz channel is:",
     "options": [
       "123.1 MHz.",
-      "101.5 MHz.",
+      "101,5 MHz.",
       "500 kHz.",
       "2128 kHz."
     ],
@@ -26674,10 +26674,10 @@
     "qid": "PL099-0012",
     "question": "For communication between marine vessels and aircraft participating in the actions of search and rescue (SAR), the used frequency is:",
     "options": [
-      "156.3 MHz.",
-      "121.5 MHz.",
-      "128.825 MHz.",
-      "123.450 MHz."
+      "156,3 MHz.",
+      "121,5 MHz.",
+      "128,825 MHz.",
+      "123,450 MHz."
     ],
     "answers": [
       0
@@ -26842,7 +26842,7 @@
     "qid": "PL099-0025",
     "question": "Air traffic control is required to maintain a radio monitoring of radio distress communications on a frequency:",
     "options": [
-      "121.5 MHz.",
+      "121,5 MHz.",
       "500 kHz.",
       "156.3 MHz.",
       "2182 kHz."
@@ -27263,9 +27263,9 @@
     "question": "The fundamental frequency of international manual telegraph communications in emergency is:",
     "options": [
       "500 kHz .",
-      "121.5 MHz.",
+      "121,5 MHz.",
       "2182 kHz.",
-      "122.7 MHz."
+      "122,7 MHz."
     ],
     "answers": [
       0
@@ -27503,7 +27503,7 @@
       "Operational Instructions.",
       "AIP.",
       "Aviation Law.",
-      "1602. Regulation of the Minister of Infrastructure dated September 3 2003, OJ 165 pos. 1602."
+      "Regulation of the Minister of Infrastructure dated September 3 2003, OJ 165 pos. 1602."
     ],
     "answers": [
       0
