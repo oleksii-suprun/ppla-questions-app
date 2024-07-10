@@ -4,3 +4,9 @@ spring:
   cache:
     caffeine:
       spec: expireAfterWrite=30m
+
+springdoc:
+  show-actuator: true
+
+management:
+  endpoints.web.exposure.include: info, health

@@ -20,12 +20,12 @@ import org.springframework.web.reactive.function.server.ServerResponse.ok
 class ApplicationConfig {
 
     @Bean
-    fun htmlRouter(@Value("classpath:index.html") html: Resource): RouterFunction<ServerResponse> {
+    fun htmlRouter(@Value("classpath:static/index.html") html: Resource): RouterFunction<ServerResponse> {
         return route(GET("/")) { _ -> ok().contentType(MediaType.TEXT_HTML).bodyValue(html) }
     }
 
     @Bean
-    fun imgRouter(): RouterFunction<ServerResponse> {
-        return resources("/**", ClassPathResource("/"))
+    fun resourcesRouter(): RouterFunction<ServerResponse> {
+        return resources("/**", ClassPathResource("/static"))
     }
 }

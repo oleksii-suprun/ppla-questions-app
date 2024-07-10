@@ -1,6 +1,7 @@
 plugins {
     id("org.springframework.boot") version "3.3.1"
     id("io.spring.dependency-management") version "1.1.5"
+    id("com.gorylenko.gradle-git-properties") version "2.4.2"
     kotlin("jvm") version "1.9.24"
     kotlin("plugin.spring") version "1.9.24"
 }
@@ -32,6 +33,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     implementation("org.springframework.boot:spring-boot-starter-cache")
     implementation("com.github.ben-manes.caffeine:caffeine:${property("caffeineVersion")}")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-api:2.6.0")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.6.0")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
@@ -50,9 +53,17 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
-tasks.processResources {
-    dependsOn(":ppla-questions-frontend:npmRunBuild")
+tasks {
+    val copyFrontendApp by registering(Copy::class) {
+        dependsOn(":ppla-questions-frontend:npmRunBuild")
 
-    from("${rootProject.childProjects["ppla-questions-frontend"]?.projectDir}/build")
-    into("${layout.buildDirectory.get()}/resources/main")
+        from("${rootProject.childProjects["ppla-questions-frontend"]?.projectDir}/build")
+        into("${layout.buildDirectory.get()}/resources/main/static")
+    }
+}
+
+
+
+tasks.processResources {
+    dependsOn("copyFrontendApp")
 }
