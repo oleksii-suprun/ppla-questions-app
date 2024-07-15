@@ -35,7 +35,7 @@
       "If time allows, report to the nearest ATS the aircraft's position when leaving the aircraft.",
       "Transmit Mayday signal and leave the aircraft.",
       "Leave the aircraft immediately.",
-      "Wszystkie pozostałe odpowiedzi są nieprawidłowe All the other answers are incorrect."
+      "All the other answers are incorrect."
     ],
     "answers": [
       0
@@ -2999,6 +2999,7 @@
     "id": 215,
     "qid": "PL010-0248",
     "question": "the Order of Regulation Minister of Infrastructure of 9.10.2003 concerning flight restrictions longer than 3 months, except for the cases referred to therein, VFR flight over the area of built-up area of Warsaw should not be executed at a height of less than:",
+    "comment": "Question is according to the source.",
     "options": [
       "FL 70.",
       "600 m.",
@@ -5994,7 +5995,7 @@
   {
     "id": 429,
     "qid": "PL010-0543",
-    "question": "A medical certificate issued Class for a person over the age of 40, performing flights in the air commercial transport in single crew is valid for:",
+    "question": "A medical certificate issued Class I for a person over the age of 40, performing flights in the air commercial transport in single crew is valid for:",
     "options": [
       "6 months.",
       "12 months.",
@@ -9580,10 +9581,10 @@
     "qid": "PL020-0198",
     "question": "The foot-operated control (rudder) is:",
     "options": [
-      "Do sterowania sterem kierunku To control the rudder",
-      "Do sterowania sterem kierunku i wysokości To control the rudder and the amount of",
-      "Do sterowania lotkami To control ailerons",
-      "Do sterowania sterem wysokości To control the amount of rudder"
+      "To control the rudder",
+      "To control the rudder and the amount of",
+      "To control ailerons",
+      "To control the amount of rudder"
     ],
     "answers": [
       0
@@ -15655,6 +15656,7 @@
     "id": 1119,
     "qid": "PL050-0026",
     "question": "Cu hum a cloud of:",
+    "comment": "Question is according to the source.",
     "options": [
       "Fair weather.",
       "Uplifted.",
@@ -16316,7 +16318,7 @@
     "options": [
       "Stratiform.",
       "Cumuliform.",
-      "Strato- cumuliform.",
+      "Strato-cumuliform.",
       "Only cirrus."
     ],
     "answers": [
@@ -20666,7 +20668,7 @@
   {
     "id": 1477,
     "qid": "PL070-0049",
-    "question": "Prior to take- off the aircraft commander must be sure based on information available to him that the weather at the aerodrome and the condition of the planned take-off runway:",
+    "question": "Prior to take-off the aircraft commander must be sure based on information available to him that the weather at the aerodrome and the condition of the planned take-off runway:",
     "options": [
       "Will not have negative influence on the safety of takeoff and departure.",
       "Conform to the AIP.",
@@ -22753,6 +22755,7 @@
     "id": 1626,
     "qid": "PL080-0136",
     "question": "At what altitude, density of the air in ISA atmosphere is equal to the ISA density at sea level?",
+    "comment": "Answers are according to the source.",
     "options": [
       "0 m.",
       "100m.",
@@ -24362,9 +24365,9 @@
   {
     "id": 1741,
     "qid": "PL080-0269",
-    "question": "Zdolność do zmiany stanu ustalonego lotu pod wpływem wychylenia odpowiedniego steru nazywamy Ability to change the steady-state flight under the influence of corresponding rudder deflection is called:",
+    "question": "Ability to change the steady-state flight under the influence of corresponding rudder deflection is called:",
     "options": [
-      "sterownością steering",
+      "Steering.",
       "The static stability.",
       "The dynamic stability.",
       "The stability."
@@ -24435,9 +24438,9 @@
     "question": "The geometrical twist of wings is characterized itself by:",
     "options": [
       "profiling geometric chord in subsequent sections do not lie in one line",
-      "skrzydła wygięte są w dół podczas postoju szybowca na ziemi the wings are bent down when parked glider on the ground",
-      "skrzydła wygięte są w górę podczas lotu wings are bent upwards in the flight",
-      "kryt jest mniej intensywne on the wingtip sections profile are applied where the plane separation is less intense"
+      "the wings are bent down when parked glider on the ground",
+      "wings are bent upwards in the flight",
+      "on the wingtip sections profile are applied where the plane separation is less intense"
     ],
     "answers": [
       0
