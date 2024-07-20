@@ -9495,7 +9495,7 @@
   {
     "id": 679,
     "qid": "PL020-0192",
-    "question": "Spalanie stukowe w silniku powoduje Detonation combustion causes:",
+    "question": "Detonation combustion causes:",
     "options": [
       "Disorders of the engine.",
       "Increase of engine power.",
@@ -9568,7 +9568,7 @@
     "question": "The front landing wheel steering is mainly coupled with:",
     "options": [
       "Rudder, linkage or hydraulic system.",
-      "Drążkiem (wolantem) sterownym i układem linkowym Stick (yoke), and rudder linking.",
+      "Stick (yoke), and rudder linking.",
       "Yoke or stick through the hydraulic system.",
       "With the brake installation, through the lever arrangement."
     ],
@@ -11499,7 +11499,7 @@
     "qid": "PL040-0038",
     "question": "Partial pressure of oxygen in the atmosphere at sea level is equal to:",
     "options": [
-      "21% ciśnienia powietrza) 152 mmHg (approximately 21% of air pressure).",
+      "152 mmHg (approximately 21% of air pressure).",
       "760 mmHg (approximately 100% of air pressure)",
       "380 mmHg (approximately 50% of air pressure).",
       "570 mmHg (approximately 75% of air pressure)"
@@ -13935,10 +13935,10 @@
     "qid": "PL040-0227",
     "question": "Full compensation of the oxygen zone is:",
     "options": [
-      "2.000-3.500 m.",
+      "2.000-3.500 m",
       "3.500-4.000 m",
-      "4.000-5.000 m. 4.000-5.000 m",
-      "5.000-6.000 m."
+      "4.000-5.000 m",
+      "5.000-6.000 m"
     ],
     "answers": [
       0
@@ -19087,6 +19087,8 @@
     "id": 1364,
     "qid": "PL060-0166",
     "question": "The volume of 34 l is an equivalent of:",
+    "comment": "English version is incorrect. Polish has 65 liters.",
+    "incorrect": true,
     "options": [
       "17 US gal.",
       "12 US gal",
@@ -26188,7 +26190,7 @@
     "question": "An aircraft static margin of a static longitudinal stability this is:",
     "options": [
       "The distance between the Center of Gravity of the aircraft and the Neutral Point.",
-      "Odległość pomiędzy środkiem ciężkości samolotu i środkiem aerodynamicznym The distance between the Center of Gravity of the airplane and aerodynamic center (AC).",
+      "The distance between the Center of Gravity of the airplane and aerodynamic center (AC).",
       "The distance between the Neutral balance center and the aerodynamic center (AC).",
       "The distance between the aerodynamic center of control surface and the aerodynamice center of the wing."
     ],

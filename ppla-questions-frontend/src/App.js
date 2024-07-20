@@ -63,9 +63,11 @@ const App = () => {
             {question && (
                 <div>
                     <div className="card">
-                        <h5 className="card-header">{question.qid}</h5>
+                        <h5 className="card-header">{question.qid} {question.incorrect &&
+                            <i className="bi bi-exclamation-triangle text-danger"></i>}
+                        </h5>
                         <div className="card-body">
-                            <p className="card-text">{question.question}</p>
+                        <p className="card-text">{question.question}</p>
 
                             <ul className="list-group">
                                 {shuffledOptions.map((option, index) => (
