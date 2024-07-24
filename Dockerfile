@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre AS build
+FROM eclipse-temurin:21-jre AS build
 
 ARG BOOT_JAR
 
@@ -8,7 +8,7 @@ WORKDIR /workspace/app/build
 COPY ${BOOT_JAR} .
 RUN java -Djarmode=layertools -jar $(basename ${BOOT_JAR}) extract --destination extracted
 
-FROM eclipse-temurin:17-jre
+FROM eclipse-temurin:21-jre
 
 ARG EXTRACTED=/workspace/app/build/extracted
 COPY --from=build ${EXTRACTED}/dependencies/ ./
