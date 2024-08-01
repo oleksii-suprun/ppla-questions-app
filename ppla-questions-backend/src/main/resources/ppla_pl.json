@@ -4667,7 +4667,7 @@
     "qid": "PL010-0429",
     "question": "If a VFR flight is to be conducted in the controlled airspace, flight plan must be submitted no later unlock before the scheduled time, than:",
     "options": [
-      "60 min..",
+      "60 min.",
       "30 min.",
       "10 min.",
       "3 hours."
@@ -5552,7 +5552,7 @@
       "A person who unlawfully uses the aircraft and person entered in the register of aircrafts as operator in solidarity unless he proves that at the time aircraft was operated by another person ot the use was without its fault.",
       "The person who gave the right to use the aircraft even if they did not retain the right to decide in matters of execution of the flight.",
       "The operator of the aircraft, even if they did not use it at the time of damage.",
-      "Wszystkie odpowiedzi są prawidłowe All the answers are correct."
+      "All the answers are correct."
     ],
     "answers": [
       0
@@ -6067,10 +6067,10 @@
     "qid": "PL010-0548",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - unscheduled flight is used:",
     "options": [
-      "N. N.",
-      "X. X.",
-      "S. S.",
-      "V. V."
+      "N.",
+      "X.",
+      "S.",
+      "V."
     ],
     "answers": [
       0
@@ -6095,10 +6095,10 @@
     "qid": "PL010-0550",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - VFR flight is used:",
     "options": [
-      "V. V.",
-      "N. N.",
-      "S. S.",
-      "I. I."
+      "V.",
+      "N.",
+      "S.",
+      "I."
     ],
     "answers": [
       0
@@ -7145,10 +7145,10 @@
     "qid": "PL020-0004",
     "question": "The sensitive measurement element of the airspeed indicator is:",
     "options": [
-      "różnicowa puszka membranowa differential membrane can",
-      "rurka Burdona Burdon Tube",
-      "puszka aneroidowa aneroid can",
-      "przepona gumowa Rubber diaphragm"
+      "differential membrane can",
+      "Burdon Tube",
+      "aneroid can",
+      "Rubber diaphragm"
     ],
     "answers": [
       0
@@ -7312,6 +7312,8 @@
     "id": 523,
     "qid": "PL020-0017",
     "question": "What is the differential aileron deflection:",
+    "comment": "Identical answers",
+    "warning": true,
     "options": [
       "Upgoing ailerons has a greater deflection than downgoing ailerons of the non- symmetrical wing profile.",
       "Down going ailerons has a greater deflection than up going ailerons of the non-symmetrical wing profile.",
@@ -9315,7 +9317,7 @@
     "qid": "PL020-0179",
     "question": "On- board FM radio stations are built in the following arrangement:",
     "options": [
-      "Nadajnik i odbiornik są z sobą integralnie związane, The transmitter and receiver are integrally connected with each other,",
+      "The transmitter and receiver are integrally connected with each other,",
       "The transmitter and receiver are separate units.",
       "There is one receiver to several transmitters.",
       "There is one transmitter to multiple receivers."
@@ -13893,10 +13895,10 @@
     "qid": "PL040-0224",
     "question": "Critical zone for the pilot breathing without oxygen is:",
     "options": [
-      "M; 6-7 thousand metres.",
-      "M; 3-4 thousand. metres.",
-      "M; 4-5 thousand. metres.",
-      "M; 8-9 thousand metres."
+      "6-7 thousand metres.",
+      "3-4 thousand. metres.",
+      "4-5 thousand. metres.",
+      "8-9 thousand metres."
     ],
     "answers": [
       0
@@ -15041,10 +15043,10 @@
     "qid": "PL040-0315",
     "question": "How many cavities consists of a heart?",
     "options": [
-      "4; 4;",
-      "3; 3;",
-      "2; 2;",
-      "5; 5;"
+      "4;",
+      "3;",
+      "2;",
+      "5;"
     ],
     "answers": [
       0
@@ -18905,6 +18907,8 @@
     "id": 1351,
     "qid": "PL060-0141",
     "question": "Given the following data: the airport elevation is 1,000 ft and QNH = 988 hPa, determine the current pressure altitude of the airport (assuming that 1 hPa = 27 ft):",
+    "comment": "Incorrect answer. According to calculations it should be 1750.",
+    "warning": true,
     "options": [
       "320 ft",
       "1680 ft",
@@ -19086,9 +19090,9 @@
   {
     "id": 1364,
     "qid": "PL060-0166",
-    "question": "The volume of 34 l is an equivalent of:",
+    "question": "Objętość 65 l odpowiada: The volume of 34 l is an equivalent of:",
     "comment": "English version is incorrect. Polish has 65 liters.",
-    "incorrect": true,
+    "danger": true,
     "options": [
       "17 US gal.",
       "12 US gal",
@@ -21763,6 +21767,7 @@
     "id": 1555,
     "qid": "PL080-0055",
     "question": "The greatest distance between. The bigger air viscosity:",
+    "comment": "The question is according to the pdf bank.",
     "options": [
       "The greater the drag and the thicker the boundary layer.",
       "The smaller the drag and the thinner the boundary layer.",
@@ -22281,6 +22286,7 @@
     "id": 1592,
     "qid": "PL080-0096",
     "question": "Każde ciało ma swój własny, stały i niezmienny współczynnik oporu kształtu Cx kszt:",
+    "comment": "There no English version",
     "options": [
       "False, the form drag coefficient also depends on the body placement relative to the airflow.",
       "Always true.",
@@ -25544,6 +25550,8 @@
     "id": 1825,
     "qid": "PL080-0470",
     "question": "Increase of the aircraft pitching moment \"Delta M\" resulting from the yoke movement is Delta M = Delta L * lH, where:",
+    "comment": "Identical answers",
+    "warning": true,
     "options": [
       "lH- the distance between the center of gravity of the airplane and the horizontal tailplane aerodynamic center; Delta L - increase of the lift force on the elevator.",
       "lH- the distance between the wing aerodynamic center and and the horizontal tailplane aerodynamic center; Delta L - increase of the lift force on the elevator.",
