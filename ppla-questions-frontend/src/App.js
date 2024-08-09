@@ -10,6 +10,16 @@ const shuffleArray = (array) => {
     return newArray;
 };
 
+// Utility function to shuffle array
+const shuffleAnswers = (array) => {
+    let mappedAnswers = array.slice().map(function (val, index) {
+        return { sourceIdx: index, value: val };
+    });
+
+    return shuffleArray(mappedAnswers);
+};
+
+
 const App = () => {
     const [question, setQuestion] = useState(null);
     const [shuffledOptions, setShuffledOptions] = useState([]);
@@ -26,7 +36,7 @@ const App = () => {
 
             const data = await response.json();
             setQuestion(data);
-            setShuffledOptions(shuffleArray(data.options));
+            setShuffledOptions(shuffleAnswers(data.options));
             setSelectedOption(null);
             setShowAnswer(false);
         } catch (error) {
@@ -47,11 +57,9 @@ const App = () => {
     };
 
     const getOptionClass = (index) => {
-        if (!showAnswer) return '';
-        const originalIndex = question.options.indexOf(shuffledOptions[index]);
-        if (index === selectedOption && question.answers.includes(originalIndex)) return 'list-group-item-success';
-        if (index === selectedOption && !question.answers.includes(originalIndex)) return 'list-group-item-danger';
-        if (question.answers.includes(originalIndex)) return 'list-group-item-success';
+        if (showAnswer && question.answers.includes(index)) return 'list-group-item-success';
+        if (index === selectedOption && question.answers.includes(index)) return 'list-group-item-success';
+        if (index === selectedOption && !question.answers.includes(index)) return 'list-group-item-danger';
         return '';
     };
 
@@ -70,14 +78,14 @@ const App = () => {
                         <p className="card-text">{question.question}</p>
 
                             <ul className="list-group">
-                                {shuffledOptions.map((option, index) => (
+                                {shuffledOptions.map(option => (
                                     <li
-                                        key={index}
-                                        className={`list-group-item ${getOptionClass(index)}`}
-                                        onClick={() => handleOptionClick(index)}
+                                        key={option.sourceIdx}
+                                        className={`list-group-item ${getOptionClass(option.sourceIdx)}`}
+                                        onClick={() => handleOptionClick(option.sourceIdx)}
                                         style={{cursor: showAnswer ? 'default' : 'pointer'}}
                                     >
-                                        <i className="bi bi-play-fill"></i> {option}
+                                        <i className="bi bi-play-fill"></i> {option.value}
                                     </li>
                                 ))}
                             </ul>
