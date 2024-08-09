@@ -6795,10 +6795,10 @@
     "qid": "PL010-0610",
     "question": "In the Flight Plan the altitude expressed in hundreds of feet is marked with the letter:",
     "options": [
-      "A. A.",
-      "M. M.",
-      "Z. Z.",
-      "S. S."
+      "A.",
+      "M.",
+      "Z.",
+      "S."
     ],
     "answers": [
       0
@@ -10158,7 +10158,7 @@
     "question": "The turn indicator, a gyroscopic device is characterized by the fact that it:",
     "options": [
       "Measures the speed of precession angles.",
-      "Ma oś główną poziomą, It has the main horizontal axis.",
+      "It has the main horizontal axis.",
       "Measures the deviation of the direction of magnetic lines of the plane of the horizon.",
       "Measures the aerodrome pressure."
     ],
@@ -14174,6 +14174,7 @@
     "id": 1013,
     "qid": "PL040-0246",
     "question": "Student pilot, compared with an experienced pilot:",
+    "comment": "Identical answers in English. Polish is OK.",
     "options": [
       "Needs more time to receive and process information, take into account the large amounts of data to properly understand the functioning of the object control.",
       "Needs more time to receive and process information, take into account the large amounts of data to properly understand the functioning of the object control.",
@@ -22063,10 +22064,10 @@
     "qid": "PL080-0079",
     "question": "What is the reference (standard) air temperature at sea level expressed in degrees Celsius (deg. C) ?",
     "options": [
-      "t = +15 C. t = 15 deg. C",
-      "t = +10 C. t = 10 deg. C",
-      "t = +20 C. t = 20 deg. C",
-      "t = +16,5 C. t = 16.5 deg. C"
+      "t = 15 deg. C",
+      "t = 10 deg. C",
+      "t = 20 deg. C",
+      "t = 16.5 deg. C"
     ],
     "answers": [
       0
