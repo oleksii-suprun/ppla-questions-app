@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import CommentPopover from './CommentPopover';
 
 // Utility function to shuffle array
 const shuffleArray = (array) => {
@@ -71,8 +72,8 @@ const App = () => {
             {question && (
                 <div>
                     <div className="card">
-                        <h5 className="card-header">{question.qid} {question.incorrect &&
-                            <i className="bi bi-exclamation-triangle text-danger"></i>}
+                        <h5 className="card-header">{question.qid} {question.comment &&
+                            <CommentPopover comment={question.comment} />}
                         </h5>
                         <div className="card-body">
                         <p className="card-text">{question.question}</p>

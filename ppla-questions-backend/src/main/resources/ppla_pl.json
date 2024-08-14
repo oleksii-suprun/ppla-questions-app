@@ -6039,10 +6039,10 @@
     "qid": "PL010-0546",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - the flight of another kind, than those specified is used:",
     "options": [
-      "X. X.",
-      "I. I.",
-      "N. N.",
-      "R. R."
+      "X.",
+      "I.",
+      "N.",
+      "R."
     ],
     "answers": [
       0
@@ -6123,10 +6123,10 @@
     "qid": "PL010-0553",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - first VFR then IFR is used:",
     "options": [
-      "Z. Z.",
-      "Y. Y.",
-      "V. V.",
-      "I. I."
+      "Z.",
+      "Y.",
+      "V.",
+      "I."
     ],
     "answers": [
       0
@@ -7313,7 +7313,6 @@
     "qid": "PL020-0017",
     "question": "What is the differential aileron deflection:",
     "comment": "Identical answers",
-    "warning": true,
     "options": [
       "Upgoing ailerons has a greater deflection than downgoing ailerons of the non- symmetrical wing profile.",
       "Down going ailerons has a greater deflection than up going ailerons of the non-symmetrical wing profile.",
@@ -8853,7 +8852,7 @@
   {
     "id": 633,
     "qid": "PL020-0143",
-    "question": "Optymalna temperatura oleju w silniku to (<sup>°</sup>C) The optimum engine oil temperature is ( C):",
+    "question": "The optimum engine oil temperature is (C):",
     "options": [
       "90-100.",
       "30-40.",
@@ -10156,6 +10155,7 @@
     "id": 726,
     "qid": "PL020-0241",
     "question": "The turn indicator, a gyroscopic device is characterized by the fact that it:",
+    "comment": "Inaccurate translation. Question is according to the source.",
     "options": [
       "Measures the speed of precession angles.",
       "It has the main horizontal axis.",
@@ -12115,7 +12115,7 @@
   {
     "id": 866,
     "qid": "PL040-0087",
-    "question": "Krwawienie z przedramienia może być chwilowo zatamowane przez : Bleeding from the forearm may be temporarily obstructed by: Bleeding from the forearm may be temporarily obstructed by:",
+    "question": "Bleeding from the forearm may be temporarily obstructed by:",
     "options": [
       "Temporary clenching of the brachial artery for example, fingers of hands in the middle of the length of his arm on the inner side.",
       "Temporary clenching of the radial artery (wrist compression).",
@@ -18909,7 +18909,6 @@
     "qid": "PL060-0141",
     "question": "Given the following data: the airport elevation is 1,000 ft and QNH = 988 hPa, determine the current pressure altitude of the airport (assuming that 1 hPa = 27 ft):",
     "comment": "Incorrect answer. According to calculations it should be 1750.",
-    "warning": true,
     "options": [
       "320 ft",
       "1680 ft",
@@ -19093,7 +19092,6 @@
     "qid": "PL060-0166",
     "question": "Objętość 65 l odpowiada: The volume of 34 l is an equivalent of:",
     "comment": "English version is incorrect. Polish has 65 liters.",
-    "danger": true,
     "options": [
       "17 US gal.",
       "12 US gal",
@@ -19191,7 +19189,8 @@
   {
     "id": 1371,
     "qid": "PL060-0176",
-    "question": "Pilot uzyskał z TWR przed startem następującą informację o wietrze przy powierzchni Ziemi: 260 stopni/34kt. Jaka jest składowa poprzeczna wiatru do pasa 30? Prior to take-off the pilot received from TWR the following information about the wind at the Earth surface level: 260 degrees/34kt. What is the transverse wind velocity component for runway 30? :",
+    "question": "Prior to take-off the pilot received from TWR the following information about the wind at the Earth surface level: 260 degrees/34kt. What is the transverse wind velocity component for runway 30? :",
+    "comment": "Inaccurate translation. Polish version is accurate.",
     "options": [
       "23 kt",
       "17 kt",
@@ -23689,6 +23688,7 @@
     "id": 1692,
     "qid": "PL080-0214",
     "question": "Maximum Thickness:",
+    "comment": "Potentially incorrect answers.",
     "options": [
       "The maximum distance between the mean camber line and the chord line.",
       "The minimum distance between the mean camber line and the chord line.",
@@ -25552,7 +25552,6 @@
     "qid": "PL080-0470",
     "question": "Increase of the aircraft pitching moment \"Delta M\" resulting from the yoke movement is Delta M = Delta L * lH, where:",
     "comment": "Identical answers",
-    "warning": true,
     "options": [
       "lH- the distance between the center of gravity of the airplane and the horizontal tailplane aerodynamic center; Delta L - increase of the lift force on the elevator.",
       "lH- the distance between the wing aerodynamic center and and the horizontal tailplane aerodynamic center; Delta L - increase of the lift force on the elevator.",
@@ -25959,6 +25958,7 @@
     "id": 1854,
     "qid": "PL080-0506",
     "question": "In order to increase the inclination of the plane:",
+    "comment": "Potentially incorrect answers",
     "options": [
       "The elevator or stabilator should to be pushed downward.",
       "The stick shall to be pulled.",
