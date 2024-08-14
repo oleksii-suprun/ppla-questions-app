@@ -1,14 +1,15 @@
 plugins {
+    idea
+    kotlin("jvm") version "2.0.10"
+    kotlin("plugin.spring") version "2.0.10"
     id("org.springframework.boot") version "3.3.2"
     id("io.spring.dependency-management") version "1.1.6"
     id("com.gorylenko.gradle-git-properties") version "2.4.2"
-    kotlin("jvm") version "2.0.10"
-    kotlin("plugin.spring") version "2.0.10"
 }
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -23,6 +24,7 @@ repositories {
 }
 
 extra["caffeineVersion"] = "3.1.8"
+extra["springdocOpenApiWebfluxVersion"] = "2.6.0"
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
@@ -33,8 +35,8 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     implementation("org.springframework.boot:spring-boot-starter-cache")
     implementation("com.github.ben-manes.caffeine:caffeine:${property("caffeineVersion")}")
-    implementation("org.springdoc:springdoc-openapi-starter-webflux-api:2.6.0")
-    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.6.0")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-api:${property("springdocOpenApiWebfluxVersion")}")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:${property("springdocOpenApiWebfluxVersion")}")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
