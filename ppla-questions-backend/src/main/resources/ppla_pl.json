@@ -6025,10 +6025,10 @@
     "qid": "PL010-0545",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - IFR flight is used:",
     "options": [
-      "I. I.",
-      "V. V.",
-      "X. X.",
-      "N. N."
+      "I.",
+      "V.",
+      "X.",
+      "N."
     ],
     "answers": [
       0
@@ -6053,10 +6053,10 @@
     "qid": "PL010-0547",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - general aviation is used:",
     "options": [
-      "G. G.",
-      "O. O.",
-      "W. W.",
-      "X. X."
+      "G.",
+      "O.",
+      "W.",
+      "X."
     ],
     "answers": [
       0
@@ -6081,10 +6081,10 @@
     "qid": "PL010-0549",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - scheduled flight is used:",
     "options": [
-      "S. S.",
-      "X. X.",
-      "N. N.",
-      "R. R."
+      "S.",
+      "X.",
+      "N.",
+      "R."
     ],
     "answers": [
       0
@@ -6109,10 +6109,10 @@
     "qid": "PL010-0552",
     "question": "To mark the appropriate letter of the flight rules or kind of planned flight according to type designations used in the flight plans - first IFR then VFR is used:",
     "options": [
-      "Y. Y.",
-      "X. X.",
-      "I. I.",
-      "Z. Z."
+      "Y.",
+      "X.",
+      "I.",
+      "Z."
     ],
     "answers": [
       0
@@ -18838,6 +18838,7 @@
     "id": 1346,
     "qid": "PL060-0135",
     "question": "Angle between the longitudinal axis of the aircraft and the desired track is:",
+    "comment": "Two identical correct answers. Polish version is ok.",
     "options": [
       "Drift angle.",
       "Drift angle.",
@@ -19190,7 +19191,7 @@
     "id": 1371,
     "qid": "PL060-0176",
     "question": "Prior to take-off the pilot received from TWR the following information about the wind at the Earth surface level: 260 degrees/34kt. What is the transverse wind velocity component for runway 30? :",
-    "comment": "Inaccurate translation. Polish version is accurate.",
+    "comment": "Inaccurate translation (crosswind). Polish version is ok.",
     "options": [
       "23 kt",
       "17 kt",
