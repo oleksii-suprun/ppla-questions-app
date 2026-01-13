@@ -30,7 +30,7 @@ jobs:
       artifactory-repo: ${{ steps.vars.outputs.artifactory_repo }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
@@ -70,7 +70,7 @@ jobs:
       - build-jar
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Download jar artifact
         uses: actions/download-artifact@v4
         with:
